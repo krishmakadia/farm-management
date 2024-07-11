@@ -6,90 +6,81 @@
     <title>Crop</title>
     <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
-    <div class="container py-20 px-20 bg-white">
-        <h1 class="text-green-500 font-bold text-3xl mb-3 mx-auto">Crop Variety</h1>
-        <h2 class="text-green-400 font-bold text-xl mb-5 mx-auto">Choose The Crop Of Your Choice</h2>
-        <ul class="flex flex-col text-justify space-y-4">
-            <div class="inline-flex items-center">
-                <label class="relative flex items-center p-3 rounded-full cursor-pointer" for="wheat">
-                  <input type="radio" name="crop" id="wheat"
-                    class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10" />
-                  <span
-                    class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor"
-                      stroke="currentColor" stroke-width="1">
-                      <path fill-rule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"></path>
-                    </svg>
-                  </span>
-                </label>
-                <label class="mt-px font-light text-gray-700 cursor-pointer select-none" for="wheat">
-                  Wheat
-                </label>
-              </div> 
-              <div class="inline-flex items-center">
-                <label class="relative flex items-center p-3 rounded-full cursor-pointer" for="rice">
-                  <input type="radio" name="crop" id="rice"
-                    class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10" />
-                  <span
-                    class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor"
-                      stroke="currentColor" stroke-width="1">
-                      <path fill-rule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"></path>
-                    </svg>
-                  </span>
-                </label>
-                <label class="mt-px font-light text-gray-700 cursor-pointer select-none" for="rice">
-                  Rice
-                </label>
-              </div> 
-              <div class="inline-flex items-center">
-                <label class="relative flex items-center p-3 rounded-full cursor-pointer" for="maize">
-                  <input type="radio" name="crop" id="maize"
-                    class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10" />
-                  <span
-                    class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor"
-                      stroke="currentColor" stroke-width="1">
-                      <path fill-rule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"></path>
-                    </svg>
-                  </span>
-                </label>
-                <label class="mt-px font-light text-gray-700 cursor-pointer select-none" for="maize">
-                  Maize
-                </label>
-              </div> 
-              <div class="inline-flex items-center">
-                <label class="relative flex items-center p-3 rounded-full cursor-pointer" for="millet">
-                  <input type="radio" name="crop" id="millet"
-                    class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10" />
-                  <span
-                    class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor"
-                      stroke="currentColor" stroke-width="1">
-                      <path fill-rule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"></path>
-                    </svg>
-                  </span>
-                </label>
-                <label class="mt-px font-light text-gray-700 cursor-pointer select-none" for="millet">
-                  Millet
-                </label>
-              </div> 
-        </ul>
+<body class="bg-gray-100 text-gray-700">
+    <div class="container mx-auto py-20 px-10 bg-white rounded-lg shadow-lg max-w-xl">
+        <h1 class="text-green-500 font-bold text-3xl mb-3 text-center">Crop Variety</h1>
+        <h2 class="text-green-400 font-bold text-xl mb-5 text-center">Choose The Crop Of Your Choice</h2>
+        
+        <form>
+            <div class="flex space-x-4 mb-6 justify-center">
+                <div class="inline-flex items-center">
+                    <label class="relative flex items-center p-3 rounded-full cursor-pointer" for="wheat">
+                        <input type="radio" name="crop" id="wheat" class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10" />
+                        <span class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="mt-px font-light text-gray-700 cursor-pointer select-none ml-2" for="wheat">Wheat</label>
+                </div> 
+                <div class="inline-flex items-center">
+                    <label class="relative flex items-center p-3 rounded-full cursor-pointer" for="rice">
+                        <input type="radio" name="crop" id="rice" class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10" />
+                        <span class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="mt-px font-light text-gray-700 cursor-pointer select-none ml-2" for="rice">Rice</label>
+                </div> 
+                <div class="inline-flex items-center">
+                    <label class="relative flex items-center p-3 rounded-full cursor-pointer" for="maize">
+                        <input type="radio" name="crop" id="maize" class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10" />
+                        <span class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="mt-px font-light text-gray-700 cursor-pointer select-none ml-2" for="maize">Maize</label>
+                </div> 
+                <div class="inline-flex items-center">
+                    <label class="relative flex items-center p-3 rounded-full cursor-pointer" for="millet">
+                        <input type="radio" name="crop" id="millet" class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10" />
+                        <span class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="mt-px font-light text-gray-700 cursor-pointer select-none ml-2" for="millet">Millet</label>
+                </div> 
+            </div>
+
+            <div class="mb-6 max-w-sm mx-auto text-center">
+              <label for="crop-id" class="block text-sm font-medium text-gray-700">Crop ID</label>
+              <input type="text" id="crop-id" name="crop-id" class="mt-1 block p-2 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-opacity-50 focus:ring-green-500" placeholder="Enter Crop ID">
+          </div>
+          
+          <div class="mb-6 max-w-sm mx-auto text-center">
+              <label for="planting-date" class="block text-sm font-medium text-gray-700">Planting Date</label>
+              <input type="date" id="planting-date" name="planting-date" class="mt-1 block p-2 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-opacity-50 focus:ring-green-500">
+          </div>
+          
+          <div class="mb-6 max-w-sm mx-auto text-center">
+              <label for="harvesting-date" class="block text-sm font-medium text-gray-700">Harvesting Date</label>
+              <input type="date" id="harvesting-date" name="harvesting-date" class="mt-1 block p-2 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-opacity-50 focus:ring-green-500">
+          </div>
+
+          <button
+          class="mt-8 mx-auto select-none flex justify-end font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-green-500 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+          type="button"
+      >
+          Save
+      </button>
+        </form>
     </div>
-    <button
-    class="mt-8 mx-24 select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-green-500 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-    type="button"
->
-    Save
-</button>
 </body>
 </html>
